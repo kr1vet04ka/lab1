@@ -4,7 +4,7 @@ def main():
     secret_message = "ConfidentialData"
     encryption_key = "secure"
 
-    print("--- Тестування XOR шифрування ---")
+    print("--- Тестування XOR шифрування (v2) ---")
     print(f"Оригінальне повідомлення: {secret_message}")
 
     encrypted_msg = xor_cipher(secret_message, encryption_key)
